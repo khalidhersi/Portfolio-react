@@ -1,11 +1,30 @@
 import "./App.scss";
+import logo from "./assets/images/logo.png"
+import gHLogo from "./assets/images/github-icons.png"
+import linkedInLogo from "./assets/images/linkedin-icon.png"
+import cvLogo from "./assets/images/2258479.png"
+import orangeAndBlue from "./assets/images/orangeand blue 1st page.png"
+import page2 from "./assets/images/page 2.png" 
+import htmlLogo from "./assets/images/html.png"
+import cssLogo from "./assets/images/css.png" 
+import jsLogo from "./assets/images/js.png"
+import cSharpLogo  from "./assets/images/c-sharp.png"
+import reactLogo from "./assets/images/react.png"
+import bufferLogo from "./assets/images/loading-buffering.gif"
+import page3 from "./assets/images/page 3.png"
+import npmLogo from "./assets/images/npm-logo.png"
+import calculatorLogo from "./assets/images/calculator.png"
+import minesweeperLogo from "./assets/images/minesweeperLogo.png"
+
+
 
 function App() {
+
   return (
     <div className="app">
       <div class="grid-body-container">
         <nav class="nav-bar">
-          <img class="nav__logo" src="./images/kld logo.png" alt="logo" />
+          <img class="nav__logo" src={logo} alt="logo" />
           <ul class="nav__list">
             <a href="#Home" class="nav__links">
               Home.
@@ -28,7 +47,7 @@ function App() {
               <div class="social__icons">
                 <a href="#Home">
                   <img
-                    src="./images/github-icons.png"
+                    src={gHLogo}
                     alt="socails"
                     class="socials"
                     id="git"
@@ -36,7 +55,7 @@ function App() {
                 </a>
                 <a href="#Home">
                   <img
-                    src="./images/linkedin-icon.png"
+                    src={linkedInLogo}
                     alt="socails"
                     class="socials"
                     id="li"
@@ -44,7 +63,7 @@ function App() {
                 </a>
                 <a href="#Home">
                   <img
-                    src="./images/2258479.png"
+                    src={cvLogo}
                     alt="socails"
                     class="socials"
                     id="cv"
@@ -56,7 +75,7 @@ function App() {
           </div>
           <section class="c2a">
             <img
-              src="./images/orangeand blue 1st page.png"
+              src={orangeAndBlue}
               alt="button backgorund"
               id="o-b"
             />
@@ -64,7 +83,7 @@ function App() {
           </section>
         </main>
         <section class="about-page" id="About">
-          <img src="./images/page 2.png" alt="bg-page 2" />
+          <img src={page2} alt="bg-page 2" />
           <h2 class="about__tittle">About Me</h2>
           <p>
             Hey My name's Khalid and I'm a Web Developer based in London. Check
@@ -72,55 +91,55 @@ function App() {
           </p>
           <div class="project__grid">
             <div class="grid__items">
-              <img class="rea" src="./images/html.png" alt="" />
+              <img class="rea" src={htmlLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="rea" src="./images/css.png" alt="" />
+              <img class="rea" src={cssLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="react" src="./images/js.png" id="js" alt="" />
+              <img class="react" src={jsLogo} id="js" alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/c-sharp.png" id="c" alt="" />
+              <img class="buffer" src={cSharpLogo} id="c" alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images//react.png" id="react" alt="" />
+              <img class="buffer" src={reactLogo} id="react" alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={npmLogo} alt="" />
             </div>
           </div>
         </section>
         <section class="project-page" id="Contact">
-          <img src="./images/page 3.png" alt="bg-page 3" />
+          <img src={page3} alt="bg-page 3" />
           <h2 class="about__tittle">Projects</h2>
           <div class="project__grid">
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={calculatorLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={minesweeperLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={bufferLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={bufferLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={bufferLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={bufferLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={bufferLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={bufferLogo} alt="" />
             </div>
             <div class="grid__items">
-              <img class="buffer" src="./images/loading-buffering.gif" alt="" />
+              <img class="buffer" src={bufferLogo}alt="" />
             </div>
           </div>
         </section>
@@ -132,7 +151,7 @@ function App() {
             <div class="footer__big-links">
               <img
                 class="footer__logo"
-                src="./images/kld logo.png"
+                src={logo}
                 alt="logo"
               />
               <a href="#Home" class="footer__left">
