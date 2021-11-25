@@ -1,0 +1,72 @@
+.hero__text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+}
+
+.about-page {
+    
+    img {
+        height: 100%;
+        width: 100%;
+        z-index: 140;
+    }
+    .about__tittle {
+        font-size: 72px;
+        position: relative;
+        bottom: 850px;
+        left: 580px;
+        width: 400px;   
+    }
+
+    p {
+        text-align: center;
+        position: relative;
+        bottom: 800px;
+        left: 400px;
+        width: 500px;
+        font-size: 36px;
+        z-index: 11;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+        z-index: 47;
+    }
+    #c {
+        position: relative;
+        right: 20px;
+        width: 115px;
+        height: 100px;
+    }
+
+    #react {
+        width: 105px;
+        height: 100px;
+    }
+ 
+
+}
+
+.project-page {
+    
+    position: relative;
+    bottom: 600px;
+
+    img {
+        height: 100%;
+        width: 100%;
+        z-index: 47;
+    }
+    .about__tittle {
+        font-size: 72px;
+        position: relative;
+        bottom: 790px;
+        left: 585px;
+        width: 300px;
+        
+    }
+}
+

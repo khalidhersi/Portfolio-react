@@ -1,0 +1,59 @@
+/*
+.hero__text {
+    display: grid;
+    grid-template-areas: " h1  h2 "
+                         " h1  soc "
+                         " h1  h3 ";
+                         }
+
+
+.h1 {
+    grid-area: h1;
+}
+
+.h2 {
+    grid-area: h2;
+}
+
+.soc {
+    grid-area: soc;
+}
+
+.h3 {
+    grid-area: h3;
+}
+
+.c2a {
+    grid-area: c2a;
+}
+
+*/
+
+.project__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    position: relative;
+    left: 500px;
+    bottom: 775px;
+    width: 450px;
+    gap: 10px;
+
+    .grid__items {
+        background-color: #fdfdfd;
+        border: 5px solid #131313;
+        display: flex;
+
+        .buffer {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 15px;
+            top: 20px;
+        }
+    }
+}
+
+
+
+

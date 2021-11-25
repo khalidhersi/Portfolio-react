@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    position: relative;
+    left: 30px;
+
+    a {
+      display: none;
+    }
+  }
+
+  .hero {
+    font-size: 1rem;
+    position: relative;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .left__side {
+      h1 {
+        font-size: 150px;
+        position: relative;
+        bottom: 210px;
+        right: 20px;
+        height: 0px;
+      }
+    }
+
+    .right__side {
+      font-size: 16px;
+      position: relative;
+      bottom: 100px;
+      right: 220px;
+    }
+
+    .c2a {
+      position: relative;
+      bottom: 100px;
+      right: 220px;
+    }
+
+    .view-more {
+      position: relative;
+      bottom: 500px;
+    }
+  }
+
+  .about-page {
+    position: relative;
+    right: 500px;
+    top: 100px;
+  }
+
+  .project-page {
+    position: relative;
+    right: 500px;
+    top: 100px;
+  }
+}

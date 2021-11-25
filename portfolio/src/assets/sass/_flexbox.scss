@@ -1,0 +1,19 @@
+.hero__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    position: relative;
+    right: 100px;
+
+}
+
+.right__side {
+    margin-left: 230px;
+    z-index: 50;
+}
+
+.left__side {
+    z-index: 50;
+}
